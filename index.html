@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Center</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .support-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .support-card {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .support-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .support-card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Support Center</h1>
+        <p>How can we help you today?</p>
+    </header>
+
+    <main class="container">
+        <div class="support-grid">
+            <div class="support-card">
+                <h3>Terms and Conditions</h3>
+                <p>Find our terms and conditions here.</p>
+                <a href="terms.html" class="button">View Terms and Conditions</a>
+            </div>
+
+            <div class="support-card">
+                <h3>Contact Support</h3>
+                <p>Get in touch with our support team for personalized assistance.</p>
+                <a href="#" class="button">Contact Us</a>
+            </div>
+
+            <div class="support-card">
+                <h3>Privacy Policy</h3>
+                <p>Find our privacy policy here.</p>
+                <a href="privacy.html" class="button">View Privacy Policy</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Pullsheet. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
